@@ -10,9 +10,9 @@ public class Test01 {
         int aw = 125;
 
         Integer a = 125;
-//        System.out.println(a.equals(w));
-        System.out.println(aw == a);
-        System.out.println(w == a);
-        System.out.println(aw == w);
+        short s1 = 1;
+
+        s1 = (short) (s1 + 111111);
+        System.out.println(s1);
     }
 }
